@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/** LOGO **/
+img {
+  height: 30%;
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+/** LOGO **/
+
+/** NAVIGATION **/
+h2 {
+  font-family: sans-serif;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  margin-top: 30px;
+}
+
+h2 a{
+  outline: none;
+  color: inherit;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.protect {
+  text-align: left;
+}
+/** NAVIGATION **/
+
+/** CLASSES **/
+.redacted-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.redacted {
+    background-color: black;
+    color: transparent; 
+    padding: 4px 10px;
+    transition: background-color 1.0s, color 0.3s;
+}
+
+.redacted-link:hover .redacted {
+    background-color: transparent;
+    color: inherit;
+}
+/** CLASSES **/
+
+/** BODY **/
+.w1 {
+  margin-top: 90px;
+}
+
+.warning {
+  width: 100%;
+  height: 30px; /* Adjust height as needed */
+  background: repeating-linear-gradient(
+    -45deg,  /* Diagonal angle */
+    black 0px,
+    black 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
+
+.w2 {
+  margin-bottom: 50px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%; /* Adjust the width as needed */
+  height: 250px;
+  max-width: 680px; /* Optional: Set a maximum width */
+  max-height: 300px;
+  
+}
+
+h3 {
+  font-size: 25px;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 7px;
+}
+
+.h4a {
+  text-align: auto;
+  font-size: 7px;
+}
